@@ -44,9 +44,11 @@ terraform plan
 terraform apply
 
 
-you will see instance is created in AWS console 
 
-copy the public address , 
+
+with in few times, you will see instance is created in AWS console 
+
+copy the public address of EC2  , 
 
 select key pair name , 
 
