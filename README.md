@@ -13,6 +13,7 @@ Install Terraform on Linux
 
 
 **steps :**
+
 sudo mkdir ec2instance
 
 change the folder/directory permission
