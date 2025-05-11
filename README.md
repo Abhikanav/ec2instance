@@ -43,7 +43,10 @@ terraform apply
 
 
 you will see instance is created in AWS console 
-copy the public address , select key pair name , open the SSH port (22) in security group if not enabled.
+
+copy the public address , 
+select key pair name , 
+open the SSH port (22) in security group if not enabled.
 
 Connect to EC2 instance using putty
 
