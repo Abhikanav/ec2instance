@@ -14,12 +14,15 @@ Install Terraform on Linux
 
 **steps :**
 sudo mkdir ec2instance
+
 change the folder/directory permission
 
 sudo chmod 777 -R ec2instance
+
 Navigate to ec2instance directory
 
 cd ec2instance
+
 git clone https://github.com/Abhikanav/ec2instance.git
 
 ec2demo.tf   : Replace the ACCESS_KEY, SECRET_KEY, ami , instance type, key_name and Instance Name value.
@@ -33,6 +36,7 @@ terraform init
 terraform plan
 
 ** Now build the infrastructure and Type “yes” to confirm **
+
 **it will create ec2 instance in Default VPC, subnets and security groups given by AWS account.**
 
 
@@ -42,7 +46,9 @@ terraform apply
 you will see instance is created in AWS console 
 
 copy the public address , 
+
 select key pair name , 
+
 open the SSH port (22) in security group if not enabled.
 
 Connect to EC2 instance using putty
