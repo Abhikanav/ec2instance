@@ -52,11 +52,13 @@ Connect to EC2 instance using putty
 
 
 
-**To destroy the resource use below command and Type “Yes“
+**To destroy the resource use below command and Type “Yes“**
+
 terraform destroy
+
 To destroy the resources without confirmation use below command
 
-terraform destroy -auto-approve**
+terraform destroy -auto-approve
 
 
 Conclusion:  Create EC2 Instance using Terraform, connecting to ec2 instance &  destroy the ec2 resources using Terraform.
