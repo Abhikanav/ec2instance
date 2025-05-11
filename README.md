@@ -1,13 +1,19 @@
 **Create EC2 Instance using Terraform, connecting to ec2 instance &  destroy the ec2 resources using Terraform.**
 
 **Prerequisites**
-
 AWS Account
+
 Create IAM User with Admin Access
+
 Preinstalled Terraform
+
 Create new Key pairs or use existing
+
 Follow this link to create free aws account
+
 Install Terraform on Linux
+
+
 
 **steps :**
 sudo mkdir ec2instance
