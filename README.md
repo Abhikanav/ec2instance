@@ -9,10 +9,7 @@ Preinstalled Terraform
 
 Create new Key pairs or use existing
 
-Follow this link to create free aws account
-
 Install Terraform on Linux
-
 
 
 **steps :**
