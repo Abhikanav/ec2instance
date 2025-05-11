@@ -32,10 +32,12 @@ ec2demo.tf   : Replace the ACCESS_KEY, SECRET_KEY, ami , instance type, key_name
 terraform init
 
 **Check the execution plan before applying**
+
 terraform plan
 
 ** Now build the infrastructure and Type “yes” to confirm **
 **it will create ec2 instance in Default VPC, subnets and security groups given by AWS account.**
+
 
 terraform apply
 
